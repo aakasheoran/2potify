@@ -17,9 +17,9 @@ const useSpotify = () => {
       }
       spotifyApi.setAccessToken(session.user.accessToken);
     }
-  }, [session])
+  }, [session]);
 
   return spotifyApi;
 }
 
-export default useSpotify
+export default useSpotify;
